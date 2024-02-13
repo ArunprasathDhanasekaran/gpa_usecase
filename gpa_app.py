@@ -8,7 +8,7 @@ print(__name__,__file__)
 def usecase():
     return("this is test usecase")
 
-
+#this is to test git
 
 @app.route("/predict_gpa",methods=["POST"])
 def predict():
